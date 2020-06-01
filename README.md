@@ -3,19 +3,23 @@
 
 * Standard compliant React Native App Utilizing [Ignite](https://github.com/infinitered/ignite)
 
-## :arrow_up: How to Setup
+## :arrow_up: Start
 
-**Step 1:** git clone this repo:
+**Step 1:** Fork github repo into your account:
 
-**Step 2:** cd to the cloned repo:
+**Step 2:** cd to the forked repo:
 
-**Step 3:** Install the Application with `yarn` or `npm i`
+**Step 3:** Install the Application with npm install`
 
 
 ## :arrow_forward: How to Run App
 
-1. cd to the repo
-2. Run Build for either OS
+1. Open application with VSCode
+2. Select the Debug Tab on the far left
+3. Open up the Terminal tab on the bottom panel
+4. Type `npm install`
+  * for iOS:   `cd ios; pod install; cd ..`
+2. Select the Debug tab and 
   * for iOS
     * run `npx react-native run-ios`
   * for Android
