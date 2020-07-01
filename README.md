@@ -9,7 +9,7 @@
 2. clone your fork into desire path
 3. cd into project directory
 
-####Additional Steps for iOS
+#### Additional Steps for iOS
 1. Install Cocoapods.  Some other software may need to be installed before you can get Cocoapods.  Open terminal to use these commands:
  
  | Software |  Check if installed | Install |
