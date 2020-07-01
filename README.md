@@ -9,7 +9,7 @@
 2. clone your fork into desire path
 3. cd into project directory
 
-#### Additional Steps for iOS
+#### Additional Steps for iOS Debugging
 1. Install Cocoapods.  Some other software may need to be installed before you can get Cocoapods.  Open terminal to use these commands:
  
  | Software |  Check if installed | Install |
@@ -18,6 +18,9 @@
 |Ruby | `$ ruby -v` | `$ brew install ruby`|
 |Cocoapods | `$ pod --version`| `$ [sudo] gem install cocoapods` |
 2. Install Xcode. Open App Store and search Xcode then download the application.
+
+#### Additional Steps for Android Debugging
+1. Install [Android Studio](https://developer.android.com/studio)
 
 ## How to Run App with VSCode
 
