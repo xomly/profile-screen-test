@@ -17,10 +17,10 @@
  | --- | --- | --- |
  |Homebrew | `$ brew -v`|  `$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`|
 |Ruby | `$ ruby -v` | `$ brew install ruby`|
-|Cocoapods | `$ pod --version`| `$ [sudo] gem install cocoapods` |
+|Cocoapods | `$ pod --version`| `$ sudo gem install cocoapods` |
 2. Install Xcode. Open App Store, search for Xcode, and then download the application.
 
-#### Additional Steps for Android Debugging (Recommneded for Windows)
+#### Additional Steps for Android Debugging (Recommended for Windows)
 1. Install [Android Studio](https://developer.android.com/studio)
 
 ## How to Run App with VSCode
@@ -30,7 +30,7 @@
 2. Select the Run Tab ![image](./Docs/Images/Run-Tab.png) on the far left
 3. Open up the Terminal tab on the bottom panel
 4. Install packages with [NPM](https://www.npmjs.com/get-npm) : `npm install` 
-  * for iOS:
+6. For iOS install CocoaPods:
   	`cd ios; pod install; cd ..`
 5. With the Run tab ![image](./Docs/Images/Run-Tab.png) selected, go to the top left of the page and select the debug script. 
   * for iOS: Debug iOS
@@ -46,11 +46,13 @@ Copy this screen to the best of your abilities in the ProfileScreen.js file of t
 
 #### Instructions
 
-1. Componentize anything with a repeatable format.
-2. All prop hardcoded values should be defined in mapStateToProps.
-3. Actual image/icons are not necessary, but an image/icon should be provided. [React-Native-Vector-Icons](https://github.com/oblador/react-native-vector-icons) library is already included in application.
-4. Navigation is not require necessary.  If you don't know how to navigate create an alert that tells where it navigates to instead of preforming the navigation on button press.
-5. "Learn More" and "All Activities" buttons should show a view with made up information and then hide the view when the button is pressed again.
+1. Create components as much as possible especially for any repeatable code.
+2. Hit this endpoint: 
+`https://raw.githubusercontent.com/xomly/profile-screen-test/master/api/users/4932.json` 
+for all fake user data information.
+3. The actual image/icons are not necessary, but an image/icon should be provided. [React-Native-Vector-Icons](https://github.com/oblador/react-native-vector-icons) library is already included in application.
+4. Navigation is not required.  If you don't know how to navigate create an alert that tells where it navigates to instead of preforming the navigation on button press.
+5. "Learn More" and "All Activities" should be buttons.  When the button is pressed show a View with extra text beneath the button.  When the button is pressed again hide that View.
 6. Bonus Points for adding navigation/animations/redux etc.
 
 
