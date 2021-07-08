@@ -64,7 +64,7 @@ Copy this screen to the best of your abilities in the ProfileScreen.js file of t
 2. Hit this endpoint: 
 `https://raw.githubusercontent.com/xomly/profile-screen-test/master/api/users/4932.json` 
 for all fake user data information.
-3. The actual image/icons are not necessary, but an image/icon should be provided. [React-Native-Vector-Icons](https://github.com/oblador/react-native-vector-icons) library is already included in application.
+3. These exact image/icons are not necessary, but an image/icon should be provided. [React-Native-Vector-Icons](https://github.com/oblador/react-native-vector-icons) library is already included in application.
 4. Navigation is not required.  If you don't know how to navigate, create an alert that tells where it navigates to instead of preforming the navigation on press.
 5. "Learn More" and "All Activities" should be buttons.  When the button is pressed show a View with extra text beneath the button.  When the button is pressed again hide that View.
 6. Bonus Points for adding navigation/animations/redux etc.
