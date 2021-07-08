@@ -1,5 +1,5 @@
 {
-  id: '4932'
+  id: '4932',
   name: 'Nathan Garcia',
   picture: require('../Images/34.jpeg'),
   isOnline: true,
