@@ -6,21 +6,35 @@
 ## Download Repository
 
 1. `fork` github repo into your account
-2. `clone` your fork into desire path
+2. `clone` your fork into desired path
 3. `cd` into project directory
 
 
-#### Additional Steps for iOS Debugging (Recommended for Mac)
-1. Install Cocoapods.  Some other software may need to be installed before you can get Cocoapods.  Open terminal to use these commands:
+#### Steps for iOS Debugging (Recommended for Mac)
+
+#####Install Cocoapods
+1. To install cocoapods you will first want to have Brew and Ruby.
+2. Use the commands to see if you have these already install
+3. Install software as needed.
  
  | Software |  Check if installed | Install |
  | --- | --- | --- |
  |Homebrew | `$ brew -v`|  `$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`|
 |Ruby | `$ ruby -v` | `$ brew install ruby`|
 |Cocoapods | `$ pod --version`| `$ sudo gem install cocoapods` |
-2. Install Xcode. Open App Store, search for Xcode, and then download the application.
 
-#### Additional Steps for Android Debugging (Recommended for Windows)
+#####Install Xcode 
+1. Open App Store
+2. Search for Xcode
+3. Download the application.
+
+#####Install Simulator
+1. Open Xcode
+2. Selected Xcode -> Preferences from Top Menu
+3. Select Components Tab
+4. Select simulator and install it.
+
+#### Steps for Android Debugging (Recommended for Windows)
 1. Install [Android Studio](https://developer.android.com/studio)
 
 ## How to Run App with VSCode
