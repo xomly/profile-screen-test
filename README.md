@@ -12,7 +12,7 @@
 
 #### Steps for iOS Debugging (Recommended for Mac)
 
-#####Install Cocoapods
+##### Install Cocoapods
 1. To install cocoapods you will first want to have Brew and Ruby.
 2. Use the commands to see if you have these already install
 3. Install software as needed.
@@ -23,12 +23,12 @@
 |Ruby | `$ ruby -v` | `$ brew install ruby`|
 |Cocoapods | `$ pod --version`| `$ sudo gem install cocoapods` |
 
-#####Install Xcode 
+##### Install Xcode 
 1. Open App Store
 2. Search for Xcode
 3. Download the application.
 
-#####Install Simulator
+##### Install Simulator
 1. Open Xcode
 2. Selected Xcode -> Preferences from Top Menu
 3. Select Components Tab
