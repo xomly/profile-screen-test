@@ -1,7 +1,7 @@
 {
   id: '4932',
   name: 'Nathan Garcia',
-  picture: require('../Images/34.jpeg'),
+  picture: 'https://puzl-production.s3.amazonaws.com/files/uploads/files/001/684/988/original/john_martin.jpg',
   isOnline: true,
   position: 'UI/UX Designer',
   about:
