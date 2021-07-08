@@ -30,7 +30,7 @@ function getNativeModules() {
             for (var i = 0; i < ids.length; i++) {
               if (modules[ids[i]].verboseName) {
                  var packagePath = new String(modules[ids[i]].verboseName);
-                 if (packagePath.indexOf('react-native/Libraries/BatchedBridge/NativeModules.js') > 0) {
+                 if (packagePath.indexOf('Libraries/BatchedBridge/NativeModules.js') > 0 || packagePath.indexOf('Libraries\\BatchedBridge\\NativeModules.js') > 0) {
                    nativeModuleId = parseInt(ids[i], 10);
                    break;
                  }
@@ -50,13 +50,13 @@ function getNativeModules() {
 var vscodeHandlers = {
     'vscode_reloadApp': function () {
         var NativeModules = getNativeModules();
-        if (NativeModules) {
-            NativeModules.DevMenu.reload();
+        if (NativeModules && NativeModules.DevSettings) {
+            NativeModules.DevSettings.reload();
         }
     },
     'vscode_showDevMenu': function () {
         var NativeModules = getNativeModules();
-        if (NativeModules) {
+        if (NativeModules && NativeModules.DevMenu) {
             NativeModules.DevMenu.show();
         }
     }
@@ -208,6 +208,8 @@ onmessage = function () {
     }
   };
 }();
+
+//# sourceMappingURL=debuggerWorker.js.map
 // Notify debugger that we're done with loading
 // and started listening for IPC messages
 postMessage({workerLoaded:true});

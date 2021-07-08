@@ -5,11 +5,12 @@
 
 ## Download Repository
 
-1. Fork github repo into your account
-2. clone your fork into desire path
-3. cd into project directory
+1. `fork` github repo into your account
+2. `clone` your fork into desire path
+3. `cd` into project directory
 
-#### Additional Steps for iOS Debugging
+
+#### Additional Steps for iOS Debugging (Recommended for Mac)
 1. Install Cocoapods.  Some other software may need to be installed before you can get Cocoapods.  Open terminal to use these commands:
  
  | Software |  Check if installed | Install |
@@ -17,9 +18,9 @@
  |Homebrew | `$ brew -v`|  `$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`|
 |Ruby | `$ ruby -v` | `$ brew install ruby`|
 |Cocoapods | `$ pod --version`| `$ [sudo] gem install cocoapods` |
-2. Install Xcode. Open App Store and search Xcode then download the application.
+2. Install Xcode. Open App Store, search for Xcode, and then download the application.
 
-#### Additional Steps for Android Debugging
+#### Additional Steps for Android Debugging (Recommneded for Windows)
 1. Install [Android Studio](https://developer.android.com/studio)
 
 ## How to Run App with VSCode
@@ -48,9 +49,9 @@ Copy this screen to the best of your abilities in the ProfileScreen.js file of t
 1. Componentize anything with a repeatable format.
 2. All prop hardcoded values should be defined in mapStateToProps.
 3. Actual image/icons are not necessary, but an image/icon should be provided. [React-Native-Vector-Icons](https://github.com/oblador/react-native-vector-icons) library is already included in application.
-4. No Navigation is necessary.  Any button that navigates should create an alert that tells where it navigates to.
+4. Navigation is not require necessary.  If you don't know how to navigate create an alert that tells where it navigates to instead of preforming the navigation on button press.
 5. "Learn More" and "All Activities" buttons should show a view with made up information and then hide the view when the button is pressed again.
-6. Bonus Points for adding navigation/animation/redux etc.
+6. Bonus Points for adding navigation/animations/redux etc.
 
 
 ## Submission
