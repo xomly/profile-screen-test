@@ -55,7 +55,7 @@
 ## Project
 Copy this screen to the best of your abilities in the ProfileScreen.js file of the project.
 
-![image](./Docs/Images/Profile-Screen.png)
+![image](../Profile-Screen.png)
 
 
 #### Instructions
